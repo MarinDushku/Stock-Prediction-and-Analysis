@@ -1,12 +1,16 @@
-# Virtual environment
+# Completely ignore the entire venv directory and all its contents
 venv/
-*.venv
-.env
+.venv/
+env/
+.env/
 
-# Python bytecode
+# Ignore all Python bytecode files
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
+
+# Prevent tracking of any .py files in the virtual environment
+venv/**/*.py
+.venv/**/*.py
 
 # IDE specific files
 .vscode/
