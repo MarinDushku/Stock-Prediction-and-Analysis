@@ -1,9 +1,10 @@
-streamlit
 yfinance
 pandas
 numpy
-plotly
-prophet
+nltk
+scrapy
+beautifulsoup4
 scikit-learn
-matplotlib
-seaborn
+plotly
+streamlit
+newsapi-python
